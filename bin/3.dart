@@ -9,15 +9,15 @@ void main(List<String>arguments) {
 
   print('hversu margar tölur villtu slá inn? ');
 
-  int fjoldi = int.parse(stdin.readLineSync(encoding: Encoding.getByName('utf-8')));
+  int numbers = int.parse(stdin.readLineSync(encoding: Encoding.getByName('utf-8')));
 
-  int summa = 0;
+  int sum = 0;
 
-  for(int i = 0; i < fjoldi; i++) {
+  for(int i = 0; i < numbers; i++) {
     print('sláðu inn tölu nr ${i}');
 
-    summa +=
+    sum +=
         int.parse(stdin.readLineSync(encoding: Encoding.getByName('utf-8')));
   }
-  print('summa talnanna 5 er: ${summa} og meðaltal þeiira er: ${summa/fjoldi}');
+  print('summa talnanna 5 er: ${sum} og meðaltal þeiira er: ${sum/numbers}');
   }
