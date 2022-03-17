@@ -14,9 +14,14 @@ void main() {
   String concat = '';
   int counter = calculate_sum.length;
   int sum = 0;
-  for(int i = 0; i < counter; i++); {
-    sum += calculate_sum[i];
-    print(sum);
-  }
+  for(int i = 0; i < counter; i++);
+  bool active = true;
 
+  //(calculate_sum <= 80 && calculate_sum >= 20)
 
+    int x = (calculate_sum <= 80 && calculate_sum >= 20))
+
+    print(x);
+    print(x.length);
+
+}
