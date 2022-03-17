@@ -10,8 +10,8 @@ void main(List<String>arguments) {
 
   int count = 0;
   while (inputNumber > 0 || inputNumber != 0) {
-    inputNumber = (inputNumber /10).floor();
+    inputNumber = (inputNumber / 10).floor();
     count++;
   }
   print('The total number of digits entered are $count');
-
+}
